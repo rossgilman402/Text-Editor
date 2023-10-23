@@ -12,8 +12,8 @@ module.exports = () => {
     entry: {
       main: "./src/js/index.js",
       install: "./src/js/install.js",
-      editor: "./src/js/editor.js",
-      header: "./src/js/header.js",
+      // editor: "./src/js/editor.js",
+      // header: "./src/js/header.js",
     },
     output: {
       filename: "[name].bundle.js",
@@ -43,7 +43,7 @@ module.exports = () => {
         icons: [
           {
             src: path.resolve("./src/images/logo.png"),
-            sizes: [120, 152, 167, 180, 1024],
+            sizes: [96, 120, 152, 167, 180, 1024],
             type: "image/png",
           },
         ],
